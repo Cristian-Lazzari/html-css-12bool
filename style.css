@@ -4,8 +4,15 @@
     text-align: center;
     color: white;
     white-space: nowrap;
+    
 }
 .nested{
     background-color: aquamarine;
-    height: 80%;
+}
+.main [class*= "col"]{
+    height: 2.3rem;
+}
+.last{
+    display: flex;
+    flex-direction: column-reverse;
 }
